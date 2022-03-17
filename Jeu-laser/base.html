@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Boite </title>
+    <script src="boite.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+    <p id="score">Score : 0</p>
+    <div id="jeu"></div>
+    <p>
+        <button onclick="validerOnClick()">Valider la sélection</button>
+    </p>
+    <p>
+        <button onclick="clearTab()">Recommencer</button>
+    </p>
+    <p>
+        <label for="debug">Debug mode</label>
+        <input type="checkbox" id="debug" onclick="debugOnClick()">
+    </p>
+    
+</body>
+
+</html>

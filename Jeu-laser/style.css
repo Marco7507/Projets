@@ -1,0 +1,29 @@
+body {
+    font: sans-serif;
+}
+td {
+    border: solid 1px #7f7f7f;
+    stroke-opacity: 50;
+    height: 3em;
+    width: 3em;
+}
+table {
+    margin:auto;
+    margin-bottom: 1em;
+    border: solid 8px #909090;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-right: solid 8px #2c2c2c;
+    border-bottom: solid 8px #2c2c2c;
+}
+.rond{
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+}
+p {
+    width: fit-content;
+    margin: auto;
+}
